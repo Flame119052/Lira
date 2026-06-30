@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SLICE_MAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/SLICE_MAP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/setup_dev.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setup_dev.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,7 @@
       <workItem from="1782717398919" duration="1114000" />
       <workItem from="1782803281483" duration="3882000" />
       <workItem from="1782819889225" duration="1562000" />
-      <workItem from="1782822032989" duration="5222000" />
+      <workItem from="1782822032989" duration="5823000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Project Files">
       <option name="closed" value="true" />
@@ -243,7 +241,9 @@
     <MESSAGE value="Slice F1 - Repository Scaffold" />
     <MESSAGE value="Slice F2 - Dependency Stack" />
     <MESSAGE value="Slice F2 - Dependency Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slice F2 - Dependency Stack" />
+    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
+    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slice 1.1 - Dev Environment Setup Script" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

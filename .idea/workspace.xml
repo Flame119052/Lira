@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
-      <change beforePath="$PROJECT_DIR$/SLICE_MAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/SLICE_MAP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bootstrap_model.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bootstrap_model.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,7 @@
       <workItem from="1782717398919" duration="1114000" />
       <workItem from="1782803281483" duration="3882000" />
       <workItem from="1782819889225" duration="1562000" />
-      <workItem from="1782822032989" duration="5823000" />
+      <workItem from="1782822032989" duration="7839000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Project Files">
       <option name="closed" value="true" />
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782823407742</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic Project Documentation">
+      <option name="closed" value="true" />
+      <created>1782828140319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782828140319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,14 +245,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Project Files" />
+    <MESSAGE value="Slice F1 - Repository Scaffold" />
+    <MESSAGE value="Slice F1 - Repository Scaffold" />
+    <MESSAGE value="Slice F2 - Dependency Stack" />
+    <MESSAGE value="Slice F2 - Dependency Stack" />
+    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
+    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
     <MESSAGE value="Basic Project Documentation" />
-    <MESSAGE value="Slice F1 - Repository Scaffold" />
-    <MESSAGE value="Slice F1 - Repository Scaffold" />
-    <MESSAGE value="Slice F2 - Dependency Stack" />
-    <MESSAGE value="Slice F2 - Dependency Stack" />
-    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
-    <MESSAGE value="Slice 1.1 - Dev Environment Setup Script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slice 1.1 - Dev Environment Setup Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Project Documentation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIDiffSettings">
+    <option name="showAIDiff" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001599783510668" />
+      <entry key="MS500" value="1.2024221206544836" />
+      <entry key="S2" value="2.0561811118060875" />
+      <entry key="S5" value="2.5397961775152487" />
+      <entry key="S10" value="2.75307336936097" />
+      <entry key="S30" value="2.913612258798821" />
+      <entry key="S60" value="2.956273345390745" />
+      <entry key="M2" value="2.978001690250162" />
+      <entry key="M5" value="2.9911680487473054" />
+      <entry key="M10" value="2.9955785670621538" />
+      <entry key="M15" value="2.997051163862693" />
+      <entry key="M30" value="2.998524974480839" />
+      <entry key="H1" value="2.9992623353100396" />
+      <entry key="H2" value="2.9996311296639524" />
+      <entry key="H4" value="2.99981555533315" />
+      <entry key="D1" value="2.99996925790282" />
+      <entry key="W1" value="2.9999956082395194" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9594197229375034" />
+      <entry key="MS500" value="1.1929804745582062" />
+      <entry key="S2" value="2.052498714465894" />
+      <entry key="S5" value="2.53801413394212" />
+      <entry key="S10" value="2.752113597485961" />
+      <entry key="S30" value="2.9132750217000334" />
+      <entry key="S60" value="2.9561024223478967" />
+      <entry key="M2" value="2.977915641544989" />
+      <entry key="M5" value="2.9911334869021022" />
+      <entry key="M10" value="2.9955612622914596" />
+      <entry key="M15" value="2.9970396220403295" />
+      <entry key="M30" value="2.998519200913122" />
+      <entry key="H1" value="2.9992594478616255" />
+      <entry key="H2" value="2.999629685773553" />
+      <entry key="H4" value="2.9998148333463956" />
+      <entry key="D1" value="2.9999691375659228" />
+      <entry key="W1" value="2.999995591048392" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FfFxelDsZGkmjfi6VpkdBtmM3j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/krishay/Documents/Lira&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaCloudProjectLink">
+    <option name="linkedProjectId" value="5ZWPP" />
+    <option name="linkedProjectName" value="My first project" />
+    <option name="organizationId" value="NVj8y" />
+    <option name="userId" value="GrMEx" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="" />
+      <created>1782458464266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782458464266</updated>
+      <workItem from="1782458465280" duration="593000" />
+      <workItem from="1782531569329" duration="3254000" />
+      <workItem from="1782538557434" duration="215000" />
+      <workItem from="1782538907444" duration="3347000" />
+      <workItem from="1782622861939" duration="554000" />
+      <workItem from="1782717398919" duration="1114000" />
+      <workItem from="1782803281483" duration="3882000" />
+      <workItem from="1782819889225" duration="1562000" />
+      <workItem from="1782822032989" duration="1300000" />
+    </task>
+    <task id="LOCAL-00001" summary="Basic Project Files">
+      <option name="closed" value="true" />
+      <created>1782820471827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782820471827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic Project Files">
+      <option name="closed" value="true" />
+      <created>1782820563114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782820563114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic Project Documentation">
+      <option name="closed" value="true" />
+      <created>1782822091642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782822091642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic Project Files" />
+    <MESSAGE value="Basic Project Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Project Documentation" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

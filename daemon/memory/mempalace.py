@@ -1,0 +1,1 @@
+"""Owns Mempalace integration boundaries."""

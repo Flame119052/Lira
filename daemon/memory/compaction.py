@@ -1,0 +1,1 @@
+"""Owns memory compaction boundaries."""

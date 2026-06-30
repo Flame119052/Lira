@@ -1,0 +1,1 @@
+"""Owns speech transcription boundaries."""

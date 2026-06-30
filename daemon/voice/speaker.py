@@ -1,0 +1,1 @@
+"""Owns speech output boundaries."""

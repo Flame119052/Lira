@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daemon/core/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/core/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon/api/routes/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/api/routes/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon/api/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/api/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <workItem from="1782717398919" duration="1114000" />
       <workItem from="1782803281483" duration="3882000" />
       <workItem from="1782819889225" duration="1562000" />
-      <workItem from="1782822032989" duration="9708000" />
+      <workItem from="1782822032989" duration="10343000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Project Files">
       <option name="closed" value="true" />
@@ -254,7 +255,9 @@
     <MESSAGE value="Basic Project Documentation" />
     <MESSAGE value="Slice 1.2 - Model Bootstrap" />
     <MESSAGE value="Slice 1.2 - Model Bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slice 1.2 - Model Bootstrap" />
+    <MESSAGE value="Slice 1.4 - Model Loader &amp; Frozen Signature" />
+    <MESSAGE value="Slice 1.4 - Model Loader &amp; Frozen Signature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slice 1.4 - Model Loader &amp; Frozen Signature" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

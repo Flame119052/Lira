@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bonsai_sidecar/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bonsai_sidecar/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,31 +18,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Flame119052/Lira.git",
+    "accountId": "fa3d9e44-2a56-42b8-9ff9-814eb8711202"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001599783510668" />
-      <entry key="MS500" value="1.2024221206544836" />
-      <entry key="S2" value="2.0561811118060875" />
-      <entry key="S5" value="2.5397961775152487" />
-      <entry key="S10" value="2.75307336936097" />
-      <entry key="S30" value="2.913612258798821" />
-      <entry key="S60" value="2.956273345390745" />
-      <entry key="M2" value="2.978001690250162" />
-      <entry key="M5" value="2.9911680487473054" />
-      <entry key="M10" value="2.9955785670621538" />
-      <entry key="M15" value="2.997051163862693" />
-      <entry key="M30" value="2.998524974480839" />
-      <entry key="H1" value="2.9992623353100396" />
-      <entry key="H2" value="2.9996311296639524" />
-      <entry key="H4" value="2.99981555533315" />
-      <entry key="D1" value="2.99996925790282" />
-      <entry key="W1" value="2.9999956082395194" />
+      <entry key="MS100" value="2.050744377248532" />
+      <entry key="MS500" value="2.9316855406366047" />
+      <entry key="S2" value="3.9539824164154247" />
+      <entry key="S5" value="4.491371446151737" />
+      <entry key="S10" value="4.727200420460257" />
+      <entry key="S30" value="4.904571365154238" />
+      <entry key="S60" value="4.951697547359082" />
+      <entry key="M2" value="4.9756996950367025" />
+      <entry key="M5" value="4.990243833955708" />
+      <entry key="M10" value="4.995115887390769" />
+      <entry key="M15" value="4.996742583366034" />
+      <entry key="M30" value="4.998370620488716" />
+      <entry key="H1" value="4.999185142368161" />
+      <entry key="H2" value="4.999592529205325" />
+      <entry key="H4" value="4.99979625410676" />
+      <entry key="D1" value="4.999966040893259" />
+      <entry key="W1" value="4.999995148663333" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -62,23 +87,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9594197229375034" />
-      <entry key="MS500" value="1.1929804745582062" />
-      <entry key="S2" value="2.052498714465894" />
-      <entry key="S5" value="2.53801413394212" />
-      <entry key="S10" value="2.752113597485961" />
-      <entry key="S30" value="2.9132750217000334" />
-      <entry key="S60" value="2.9561024223478967" />
-      <entry key="M2" value="2.977915641544989" />
-      <entry key="M5" value="2.9911334869021022" />
-      <entry key="M10" value="2.9955612622914596" />
-      <entry key="M15" value="2.9970396220403295" />
-      <entry key="M30" value="2.998519200913122" />
-      <entry key="H1" value="2.9992594478616255" />
-      <entry key="H2" value="2.999629685773553" />
-      <entry key="H4" value="2.9998148333463956" />
-      <entry key="D1" value="2.9999691375659228" />
-      <entry key="W1" value="2.999995591048392" />
+      <entry key="MS100" value="1.9059637885057803" />
+      <entry key="MS500" value="2.8851341291631964" />
+      <entry key="S2" value="3.9399895855290477" />
+      <entry key="S5" value="4.485366483280017" />
+      <entry key="S10" value="4.724111112288189" />
+      <entry key="S30" value="4.903520059141637" />
+      <entry key="S60" value="4.951169047224694" />
+      <entry key="M2" value="4.9754347209498295" />
+      <entry key="M5" value="4.990137668963205" />
+      <entry key="M10" value="4.995062775534349" />
+      <entry key="M15" value="4.996707168927314" />
+      <entry key="M30" value="4.998352909999642" />
+      <entry key="H1" value="4.999176286305728" />
+      <entry key="H2" value="4.999588100969575" />
+      <entry key="H4" value="4.999794039937744" />
+      <entry key="D1" value="4.999965671857986" />
+      <entry key="W1" value="4.999995095943834" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -93,32 +118,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/krishay/Documents/Lira&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "git.auto.fetch.suggestion.counter": "1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/krishay/Documents/Lira",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaCloudProjectLink">
     <option name="linkedProjectId" value="5ZWPP" />
     <option name="linkedProjectName" value="My first project" />
     <option name="organizationId" value="NVj8y" />
     <option name="userId" value="GrMEx" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install" />
+    </option>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -142,7 +173,7 @@
       <workItem from="1782717398919" duration="1114000" />
       <workItem from="1782803281483" duration="3882000" />
       <workItem from="1782819889225" duration="1562000" />
-      <workItem from="1782822032989" duration="1300000" />
+      <workItem from="1782822032989" duration="3815000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Project Files">
       <option name="closed" value="true" />
@@ -168,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782822091642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Basic Project Documentation">
+      <option name="closed" value="true" />
+      <created>1782823407742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782823407742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +224,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="Lira-Github/master" />
                       </list>
                     </value>
                   </entry>

@@ -589,7 +589,17 @@ Every "Agent prompt" below is written for an agentic coding tool — **Claude Co
 - **Acceptance.** Each terminal state yields exactly one notification; sidecar-down still works. **Must-still-pass:** 3.3, 3.7.
 
 > **Agent prompt — paste this whole block to Claude Code or Codex. Operate under §G.0.**
-> **Role.** Engineer building the inference-free job monitor. **Objective.** Turn terminal/needs-input job states into notifications. **Read first.** PRD §6.2, §12.2. **You own.** `daemon/jobs/monitor.py`. **May read.** `queue.py`, `notifications.py`, `bonsai/client.py`. **Off-limits.** `model.py`. **Build.** Poll `unsurfaced_terminal_jobs()` → notification per job → `bonsai_client.score_urgency` (degrade to 0) → push → `mark_surfaced`. **Never calls the foreground model.** **Hard rules.** No inference beyond Bonsai urgency. One notification per state change. **Verify on the real machine.** Actually drive a job to complete/needs_input/failed and confirm exactly one notification each; stop the sidecar and confirm urgency degrades to 0 without error. **Definition of done — paste the notification + degraded path.** 1) Each terminal state → exactly one notification. 2) Sidecar-down still works. **Must-still-pass:** 3.3 drain; 3.7 surfaced flags.
+> **Role.** Engineer building the inference-free job monitor. 
+> **Objective.** Turn terminal/needs-input job states into notifications. 
+> **Read first.** PRD §6.2, §12.2. 
+> **You own.** `daemon/jobs/monitor.py`. 
+> **May read.** `queue.py`, `notifications.py`, `bonsai/client.py`. 
+> **Off-limits.** `model.py`. 
+> **Build.** Poll `unsurfaced_terminal_jobs()` → notification per job → `bonsai_client.score_urgency` (degrade to 0) → push → `mark_surfaced`. **Never calls the foreground model.** 
+> **Hard rules.** No inference beyond Bonsai urgency. One notification per state change. 
+> **Verify on the real machine.** Actually drive a job to complete/needs_input/failed and confirm exactly one notification each; stop the sidecar and confirm urgency degrades to 0 without error. 
+> **Definition of done — paste the notification + degraded path.** 1) Each terminal state → exactly one notification. 2) Sidecar-down still works. 
+> **Must-still-pass:** 3.3 drain; 3.7 surfaced flags.
 
 ---
 

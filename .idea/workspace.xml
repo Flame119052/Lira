@@ -9,8 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="906adfc9-858a-4001-ad36-dede9ee27d29" name="Changes" comment="Basic Project Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bonsai_sidecar/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bonsai_sidecar/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SLICE_MAP.md" beforeDir="false" afterPath="$PROJECT_DIR$/SLICE_MAP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/setup_dev.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/setup_dev.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.050744377248532" />
-      <entry key="MS500" value="2.9316855406366047" />
-      <entry key="S2" value="3.9539824164154247" />
-      <entry key="S5" value="4.491371446151737" />
-      <entry key="S10" value="4.727200420460257" />
-      <entry key="S30" value="4.904571365154238" />
-      <entry key="S60" value="4.951697547359082" />
-      <entry key="M2" value="4.9756996950367025" />
-      <entry key="M5" value="4.990243833955708" />
-      <entry key="M10" value="4.995115887390769" />
-      <entry key="M15" value="4.996742583366034" />
-      <entry key="M30" value="4.998370620488716" />
-      <entry key="H1" value="4.999185142368161" />
-      <entry key="H2" value="4.999592529205325" />
-      <entry key="H4" value="4.99979625410676" />
-      <entry key="D1" value="4.999966040893259" />
-      <entry key="W1" value="4.999995148663333" />
+      <entry key="MS100" value="1.5358867312681466" />
+      <entry key="MS500" value="1.8827029963338706" />
+      <entry key="S2" value="1.9923486449461865" />
+      <entry key="S5" value="4.463011616277618" />
+      <entry key="S10" value="17.69576542366993" />
+      <entry key="S30" value="64.88019021649671" />
+      <entry key="S60" value="93.18225009228104" />
+      <entry key="M2" value="112.81686109752563" />
+      <entry key="M5" value="127.7602052123617" />
+      <entry key="M10" value="133.90007310857763" />
+      <entry key="M15" value="136.4603951192119" />
+      <entry key="M30" value="139.809637975049" />
+      <entry key="H1" value="142.06594801334734" />
+      <entry key="H2" value="143.42875672211284" />
+      <entry key="H4" value="144.1853813040826" />
+      <entry key="D1" value="144.85992523273922" />
+      <entry key="W1" value="144.97988006626463" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="3.5925258005511895E-153" />
+      <entry key="MS500" value="3.2439935285179735E-31" />
+      <entry key="S2" value="2.3865470171871078E-8" />
+      <entry key="S5" value="8.935276535538084E-4" />
+      <entry key="S10" value="0.02989193291765862" />
+      <entry key="S30" value="0.31034970219798763" />
+      <entry key="S60" value="0.5570903896119428" />
+      <entry key="M2" value="0.7463848803478943" />
+      <entry key="M5" value="0.8895802519146933" />
+      <entry key="M10" value="0.9431756209289391" />
+      <entry key="M15" value="0.9617489284444228" />
+      <entry key="M30" value="0.9806879873050457" />
+      <entry key="H1" value="0.9902969187597452" />
+      <entry key="H2" value="0.9951366332116109" />
+      <entry key="H4" value="0.9975653528524402" />
+      <entry key="D1" value="0.9995938132294916" />
+      <entry key="W1" value="0.9999419632146739" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.9059637885057803" />
-      <entry key="MS500" value="2.8851341291631964" />
-      <entry key="S2" value="3.9399895855290477" />
-      <entry key="S5" value="4.485366483280017" />
-      <entry key="S10" value="4.724111112288189" />
-      <entry key="S30" value="4.903520059141637" />
-      <entry key="S60" value="4.951169047224694" />
-      <entry key="M2" value="4.9754347209498295" />
-      <entry key="M5" value="4.990137668963205" />
-      <entry key="M10" value="4.995062775534349" />
-      <entry key="M15" value="4.996707168927314" />
-      <entry key="M30" value="4.998352909999642" />
-      <entry key="H1" value="4.999176286305728" />
-      <entry key="H2" value="4.999588100969575" />
-      <entry key="H4" value="4.999794039937744" />
-      <entry key="D1" value="4.999965671857986" />
-      <entry key="W1" value="4.999995095943834" />
+      <entry key="MS100" value="1.5006531780074874" />
+      <entry key="MS500" value="1.8736715507469175" />
+      <entry key="S2" value="1.9899333663087524" />
+      <entry key="S5" value="4.461237091567084" />
+      <entry key="S10" value="17.714921969905497" />
+      <entry key="S30" value="65.16279410831174" />
+      <entry key="S60" value="93.71517218107263" />
+      <entry key="M2" value="113.54721199827956" />
+      <entry key="M5" value="128.64216412113964" />
+      <entry key="M10" value="134.83920614643296" />
+      <entry key="M15" value="137.4193924014469" />
+      <entry key="M30" value="140.7889186920455" />
+      <entry key="H1" value="143.05553233781026" />
+      <entry key="H2" value="144.4235346022098" />
+      <entry key="H4" value="145.1827666320341" />
+      <entry key="D1" value="145.85948894843324" />
+      <entry key="W1" value="145.97981772749785" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -136,7 +136,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -173,7 +173,7 @@
       <workItem from="1782717398919" duration="1114000" />
       <workItem from="1782803281483" duration="3882000" />
       <workItem from="1782819889225" duration="1562000" />
-      <workItem from="1782822032989" duration="3815000" />
+      <workItem from="1782822032989" duration="5222000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Project Files">
       <option name="closed" value="true" />
@@ -224,7 +224,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lira-Github/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -239,7 +239,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic Project Files" />
     <MESSAGE value="Basic Project Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Project Documentation" />
+    <MESSAGE value="Slice F1 - Repository Scaffold" />
+    <MESSAGE value="Slice F1 - Repository Scaffold" />
+    <MESSAGE value="Slice F2 - Dependency Stack" />
+    <MESSAGE value="Slice F2 - Dependency Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slice F2 - Dependency Stack" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

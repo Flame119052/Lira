@@ -121,6 +121,11 @@ Each as **Decision → Why → Implication/rule to check.**
 - **Why.** macOS `rapportd` (and other services) can already own 8765; a hardcoded port makes the daemon fail to start. Discovery makes it robust.
 - **Implication.** Nothing hardcodes a port beyond the preferred default; the app and clients read the `.port` file. Background instances also use discovered ports.
 
+### 4.11a Data root centralization and bootstrap drift
+- **Decision.** Slice 1.3 supersedes the earlier Slice 1.2 bootstrap-specific App Support path: `daemon/core/config.py` is the only source of paths, ports, and constants. The production default remains `~/Library/Application Support/Lira/` on the boot SSD, but that default is reached through `config.data_root()`.
+- **Why.** Slice 1.2 intentionally put `scripts/bootstrap_model.sh` under App Support because there was not yet a central configurable data root. Slice 1.3 added the root resolver (`LIRA_DATA_ROOT` → persisted user setting → App Support default), so model bootstrap/download code must use that resolver before production/download testing.
+- **Implication.** `scripts/bootstrap_model.sh` is not exempt. Until it derives `MODELS_DIR` from `daemon.core.config`, the Slice 1.3 grep gate is expected to flag the script's hardcoded App Support path. External drives remain dev/user overrides only; release builds ship no override.
+
 ### 4.12 Chat single-flight (frontend + backend) — fixes a hard crash
 - **Decision.** Defense-in-depth: the UI disables the send button **and** the return-key path while a response streams (`isResponding`); the backend serializes foreground generations (a lock returning `409 "busy"` on a concurrent request).
 - **Why.** With no guard, hammering Enter mid-stream fired overlapping `/chat/stream` requests that all wrote into the same message, corrupting state and **crashing Python / taking the whole app down.** The UI guard stops the spam at the source; the backend guard guarantees the model can never be crashed by a misbehaving client.

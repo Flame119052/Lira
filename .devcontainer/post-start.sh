@@ -124,6 +124,7 @@ ensure_codex_app_server() {
 
   codex app-server daemon bootstrap || true
   codex app-server daemon start || true
+  codex app-server daemon enable-remote-control || true
   codex app-server daemon version || true
 }
 

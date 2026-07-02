@@ -14,6 +14,14 @@ ensure_path() {
 
 ensure_sshd() {
   echo "-- ensuring sshd"
+  if [ -n "${CODESPACE_SSH_PASSWORD:-}" ]; then
+    echo "-- applying codespace SSH password from secret"
+    printf 'codespace:%s\n' "${CODESPACE_SSH_PASSWORD}" | sudo chpasswd || true
+    sudo sed -i 's/^#\\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config || true
+    sudo sed -i 's/^#\\?KbdInteractiveAuthentication .*/KbdInteractiveAuthentication yes/' /etc/ssh/sshd_config || true
+  else
+    echo "WARN: CODESPACE_SSH_PASSWORD secret is not set; direct phone SSH password login will not work"
+  fi
   if command -v service >/dev/null 2>&1; then
     sudo service ssh start || sudo service ssh restart || true
   fi

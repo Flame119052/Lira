@@ -27,6 +27,10 @@ ensure_tailscale() {
   echo "-- ensuring tailscale"
   if ! command -v tailscale >/dev/null 2>&1; then
     echo "-- installing tailscale"
+    if [ -f /etc/apt/sources.list.d/yarn.list ]; then
+      echo "-- disabling stale yarn apt source during tailscale install"
+      sudo mv /etc/apt/sources.list.d/yarn.list /etc/apt/sources.list.d/yarn.list.disabled-by-lira-codespace || true
+    fi
     curl -fsSL https://tailscale.com/install.sh | sh || {
       echo "WARN: tailscale install failed"
       return 0

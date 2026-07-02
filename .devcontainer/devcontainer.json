@@ -2,14 +2,18 @@
   "name": "Lira Codex Remote",
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "runArgs": [
-    "--device=/dev/net/tun"
+    "--device=/dev/net/tun",
+    "--cap-add=NET_ADMIN",
+    "--cap-add=NET_RAW"
   ],
   "features": {
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
-    },
-    "ghcr.io/tailscale/codespace/tailscale:1.0.8": {}
+    }
   },
+  "mounts": [
+    "source=lira-codespace-tailscale-${devcontainerId},target=/var/lib/tailscale,type=volume"
+  ],
   "postStartCommand": "bash .devcontainer/post-start.sh",
   "remoteEnv": {
     "CODEX_HOME": "/home/codespace/.codex"

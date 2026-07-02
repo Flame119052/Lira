@@ -26,12 +26,25 @@ ensure_sshd() {
 ensure_tailscale() {
   echo "-- ensuring tailscale"
   if ! command -v tailscale >/dev/null 2>&1; then
-    echo "WARN: tailscale command not found; devcontainer feature may not have installed yet"
-    return 0
+    echo "-- installing tailscale"
+    curl -fsSL https://tailscale.com/install.sh | sh || {
+      echo "WARN: tailscale install failed"
+      return 0
+    }
   fi
 
-  if tailscale status >/dev/null 2>&1; then
-    tailscale status --peers=false || true
+  if ! pgrep -x tailscaled >/dev/null 2>&1; then
+    echo "-- starting tailscaled"
+    sudo mkdir -p /var/lib/tailscale /var/run/tailscale
+    sudo nohup tailscaled \
+      --state=/var/lib/tailscale/tailscaled.state \
+      --socket=/var/run/tailscale/tailscaled.sock \
+      >/tmp/tailscaled.log 2>&1 &
+    sleep 3
+  fi
+
+  if sudo tailscale status >/dev/null 2>&1; then
+    sudo tailscale status --peers=false || true
     return 0
   fi
 
@@ -40,12 +53,12 @@ ensure_tailscale() {
     return 0
   fi
 
-  tailscale up \
+  sudo tailscale up \
     --accept-routes \
     --ssh \
     --auth-key="${TS_AUTH_KEY}" \
     --hostname="${TAILSCALE_HOSTNAME:-lira-codespace}" || true
-  tailscale status --peers=false || true
+  sudo tailscale status --peers=false || true
 }
 
 install_codex_if_needed() {

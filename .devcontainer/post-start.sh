@@ -12,6 +12,14 @@ ensure_path() {
   export PATH="${HOME}/.local/bin:${HOME}/nvm/current/bin:/usr/local/share/nvm/current/bin:${PATH}"
 }
 
+ensure_mobile_project_link() {
+  echo "-- ensuring mobile-friendly project link"
+  if [ -d /workspaces/Lira ]; then
+    ln -sfn /workspaces/Lira "${HOME}/Lira" || true
+    ls -ld "${HOME}/Lira" || true
+  fi
+}
+
 ensure_sshd() {
   echo "-- ensuring sshd"
   if [ -n "${CODESPACE_SSH_PASSWORD:-}" ]; then
@@ -120,6 +128,7 @@ ensure_codex_app_server() {
 }
 
 ensure_path
+ensure_mobile_project_link
 ensure_sshd
 ensure_tailscale
 install_codex_if_needed
